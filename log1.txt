@@ -1,0 +1,120 @@
+MSBuild version 17.10.4+10fbfbf2e for .NET
+/usr/local/share/dotnet/sdk/8.0.300/MSBuild.dll -distributedlogger:Microsoft.DotNet.Tools.MSBuild.MSBuildLogger,/usr/local/share/dotnet/sdk/8.0.300/dotnet.dll*Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingLogger,/usr/local/share/dotnet/sdk/8.0.300/dotnet.dll -maxcpucount -verbosity:m /v:diag apps/my-api/Project.Apps.MyApi.csproj
+Build started 5/18/2024 5:22:59 PM.
+Environment at start of build:
+MSBuildExtensionsPath = /usr/local/share/dotnet/sdk/8.0.300/
+MSBUILDFAILONDRIVEENUMERATINGWILDCARD = 1
+DOTNET_CLI_TELEMETRY_SESSIONID = 14a25bc6-9ef8-4ab1-9a93-48077f2e9fa1
+MSBUILDUSESERVER = 0
+MSBuildLoadMicrosoftTargetsReadOnly = true
+DOTNET_HOST_PATH = /usr/local/share/dotnet/dotnet
+MSBuildSDKsPath = /usr/local/share/dotnet/sdk/8.0.300/Sdks
+
+17:22:59.848     0>Process = "/usr/local/share/dotnet/dotnet"
+                   MSBuild executable path = "/usr/local/share/dotnet/sdk/8.0.300/MSBuild.dll"
+                   Command line arguments = "/usr/local/share/dotnet/sdk/8.0.300/MSBuild.dll -maxcpucount -verbosity:m /v:diag apps/my-api/Project.Apps.MyApi.csproj -distributedlogger:Microsoft.DotNet.Tools.MSBuild.MSBuildLogger,/usr/local/share/dotnet/sdk/8.0.300/dotnet.dll*Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingLogger,/usr/local/share/dotnet/sdk/8.0.300/dotnet.dll"
+                   Current directory = "/Users/josh/Desktop/nx-testing/project"
+                   MSBuild version = "17.10.4+10fbfbf2e"
+                   Assembly loaded during Evaluation: System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: /usr/local/share/dotnet/shared/Microsoft.NETCore.App/8.0.5/System.Reflection.Metadata.dll, MVID: e0b23822-b7d3-4524-a68d-9acacb3b1f89, AssemblyLoadContext: Default)
+                   The SDK "Microsoft.NET.Sdk.Web" was successfully resolved by the "DefaultSdkResolver" resolver to location "/usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk.Web/Sdk" and version "".
+                   Assembly loaded during Evaluation: Microsoft.NET.StringTools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: /usr/local/share/dotnet/sdk/8.0.300/Microsoft.NET.StringTools.dll, MVID: a8215d72-494e-46bc-80f3-3ce7f496c99c, AssemblyLoadContext: Default)
+                   Assembly loaded during Evaluation: NuGet.Frameworks, Version=6.10.0.97, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: /usr/local/share/dotnet/sdk/8.0.300/NuGet.Frameworks.dll, MVID: 05e5996d-f121-4c49-b976-ad842a7e715b, AssemblyLoadContext: Assembly.LoadFile(/usr/local/share/dotnet/sdk/8.0.300/NuGet.Frameworks.dll))
+                   The SDK "Microsoft.NET.Sdk" was successfully resolved by the "DefaultSdkResolver" resolver to location "/usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/Sdk" and version "".
+                   Property 'MSBuildExtensionsPath' with value '/usr/local/share/dotnet/sdk/8.0.300/' expanded from the environment.
+                   Property reassignment: $(MSBuildProjectExtensionsPath)="/Users/josh/Desktop/nx-testing/project/apps/my-api/obj/" (previous value: "obj\") at /usr/local/share/dotnet/sdk/8.0.300/Current/Microsoft.Common.props (60,5)
+                   Assembly loaded during Evaluation: System.Threading.Tasks.Parallel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: /usr/local/share/dotnet/shared/Microsoft.NETCore.App/8.0.5/System.Threading.Tasks.Parallel.dll, MVID: 88a9aa2e-75a4-4089-86ea-b4327812e990, AssemblyLoadContext: Default)
+                   Property reassignment: $(OpenApiGenerateDocumentsOnBuild)="false" (previous value: "") at /Users/josh/.nuget/packages/swashbuckle.aspnetcore/6.2.3/build/Swashbuckle.AspNetCore.props (3,5)
+                   Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};{HintPathFromItem}" (previous value: "{CandidateAssemblyFiles}") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.props (91,5)
+                   Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory}" (previous value: "{CandidateAssemblyFiles};{HintPathFromItem}") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.props (92,5)
+                   Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory};{RawFileName}" (previous value: "{CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory}") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.props (93,5)
+                   The "DefaultSdkResolver" resolver attempted to resolve the SDK "Microsoft.NET.SDK.WorkloadAutoImportPropsLocator".
+                   Warnings: null
+                   Errors: MSB4276: The default SDK resolver failed to resolve SDK "Microsoft.NET.SDK.WorkloadAutoImportPropsLocator" because directory "/usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.SDK.WorkloadAutoImportPropsLocator/Sdk" did not exist.
+                   Assembly loaded during Evaluation: Microsoft.NET.Sdk.WorkloadMSBuildSdkResolver, Version=8.0.300.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: /usr/local/share/dotnet/sdk/8.0.300/Microsoft.NET.Sdk.WorkloadMSBuildSdkResolver.dll, MVID: f5fa4dec-820a-4cf1-a594-dc92637eb401, AssemblyLoadContext: MSBuild plugin /usr/local/share/dotnet/sdk/8.0.300/Microsoft.NET.Sdk.WorkloadMSBuildSdkResolver.dll)
+                   Assembly loaded during Evaluation: Microsoft.Build.NuGetSdkResolver, Version=6.10.0.97, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Build.NuGetSdkResolver.dll, MVID: 892518ee-ce10-4c18-ad79-a096196c3fcf, AssemblyLoadContext: MSBuild plugin /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Build.NuGetSdkResolver.dll)
+                   Assembly loaded during Evaluation: Microsoft.DotNet.Cli.Utils, Version=8.0.300.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (location: /usr/local/share/dotnet/sdk/8.0.300/Microsoft.DotNet.Cli.Utils.dll, MVID: 4b77f33b-55cc-4dbb-9c0f-92d798a6d6f2, AssemblyLoadContext: MSBuild plugin /usr/local/share/dotnet/sdk/8.0.300/Microsoft.NET.Sdk.WorkloadMSBuildSdkResolver.dll)
+                   Assembly loaded during Evaluation: Microsoft.NET.Sdk.WorkloadManifestReader, Version=8.0.300.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (location: /usr/local/share/dotnet/sdk/8.0.300/Microsoft.NET.Sdk.WorkloadManifestReader.dll, MVID: ac12131e-8cc8-4dfb-a978-5f85ad026ece, AssemblyLoadContext: MSBuild plugin /usr/local/share/dotnet/sdk/8.0.300/Microsoft.NET.Sdk.WorkloadMSBuildSdkResolver.dll)
+                   Assembly loaded during Evaluation: Microsoft.Deployment.DotNet.Releases, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Deployment.DotNet.Releases.dll, MVID: eb340e0e-b895-41fa-8fc4-c04faee03b3b, AssemblyLoadContext: MSBuild plugin /usr/local/share/dotnet/sdk/8.0.300/Microsoft.NET.Sdk.WorkloadMSBuildSdkResolver.dll)
+                   Assembly loaded during Evaluation: System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (location: /usr/local/share/dotnet/shared/Microsoft.NETCore.App/8.0.5/System.Text.Json.dll, MVID: ac2a05e0-9da4-4678-8234-87dfff38dc53, AssemblyLoadContext: Default)
+                   Assembly loaded during Evaluation: System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (location: /usr/local/share/dotnet/shared/Microsoft.NETCore.App/8.0.5/System.Text.Encodings.Web.dll, MVID: 28b33271-b28c-4ed7-b6ae-79e24d79f470, AssemblyLoadContext: Default)
+                   Assembly loaded during Evaluation: System.Numerics.Vectors, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: /usr/local/share/dotnet/shared/Microsoft.NETCore.App/8.0.5/System.Numerics.Vectors.dll, MVID: 77cf81f5-1874-482d-9ece-5f607c40dd79, AssemblyLoadContext: Default)
+                   Assembly loaded during Evaluation: System.Reflection.Emit.Lightweight, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: /usr/local/share/dotnet/shared/Microsoft.NETCore.App/8.0.5/System.Reflection.Emit.Lightweight.dll, MVID: 5ce3b95e-8f0b-4851-b411-5fd291f9585f, AssemblyLoadContext: Default)
+                   Assembly loaded during Evaluation: System.Reflection.Primitives, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: /usr/local/share/dotnet/shared/Microsoft.NETCore.App/8.0.5/System.Reflection.Primitives.dll, MVID: 63d0817b-0f55-4a21-abe5-7a47f75ee411, AssemblyLoadContext: Default)
+                   Assembly loaded during Evaluation: System.Reflection.Emit.ILGeneration, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: /usr/local/share/dotnet/shared/Microsoft.NETCore.App/8.0.5/System.Reflection.Emit.ILGeneration.dll, MVID: a8f70234-1c3e-4be1-afb8-2451aaf7e400, AssemblyLoadContext: Default)
+                   Assembly loaded during Evaluation: System.Formats.Asn1, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (location: /usr/local/share/dotnet/shared/Microsoft.NETCore.App/8.0.5/System.Formats.Asn1.dll, MVID: 070999a6-496d-4423-9d31-248e833cea69, AssemblyLoadContext: Default)
+                   Assembly loaded during Evaluation: System.Runtime.Numerics, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: /usr/local/share/dotnet/shared/Microsoft.NETCore.App/8.0.5/System.Runtime.Numerics.dll, MVID: 1bec9c4a-5f2e-45e8-a920-1ec835e79f7b, AssemblyLoadContext: Default)
+                   The SDK "Microsoft.NET.SDK.WorkloadAutoImportPropsLocator" was successfully resolved by the "Microsoft.DotNet.MSBuildWorkloadSdkResolver" resolver to location "null" and version "null".
+                   Property reassignment: $(TargetsForTfmSpecificContentInPackage)=";PackTool;_PackProjectToolValidation" (previous value: ";PackTool") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.PackProjectTool.props (15,5)
+                   The SDK "Microsoft.NET.Sdk.Razor" was successfully resolved by the "DefaultSdkResolver" resolver to location "/usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk.Razor/Sdk" and version "".
+                   The SDK "Microsoft.NET.Sdk.StaticWebAssets" was successfully resolved by the "DefaultSdkResolver" resolver to location "/usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk.StaticWebAssets/Sdk" and version "".
+                   Property reassignment: $(DefaultItemExcludes)=";**\node_modules\**;node_modules\**;**\jspm_packages\**;jspm_packages\**" (previous value: ";**\node_modules\**;node_modules\**") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk.StaticWebAssets/Sdk/Sdk.StaticWebAssets.StaticAssets.ProjectSystem.props (23,5)
+                   Property reassignment: $(DefaultItemExcludes)=";**\node_modules\**;node_modules\**;**\jspm_packages\**;jspm_packages\**;**\bower_components\**;bower_components\**" (previous value: ";**\node_modules\**;node_modules\**;**\jspm_packages\**;jspm_packages\**") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk.StaticWebAssets/Sdk/Sdk.StaticWebAssets.StaticAssets.ProjectSystem.props (24,5)
+                   The SDK "Microsoft.NET.Sdk.Web.ProjectSystem" was successfully resolved by the "DefaultSdkResolver" resolver to location "/usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk.Web.ProjectSystem/Sdk" and version "".
+                   Property reassignment: $(OutputType)="Exe" (previous value: "Library") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk.Web.ProjectSystem/targets/Microsoft.NET.Sdk.Web.ProjectSystem.props (16,5)
+                   The SDK "Microsoft.NET.Sdk.Publish" was successfully resolved by the "DefaultSdkResolver" resolver to location "/usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk.Publish/Sdk" and version "".
+                   Property reassignment: $(IsPackable)="true" (previous value: "false") at /Users/josh/Desktop/nx-testing/project/apps/my-api/Project.Apps.MyApi.csproj (7,5)
+                   Property reassignment: $(PublishProfileImported)="false" (previous value: "true") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.ImportPublishProfile.targets (28,5)
+                   Property reassignment: $(TargetPlatformVersion)="" (previous value: "0.0") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.TargetFrameworkInference.targets (69,5)
+                   Property reassignment: $(DefaultItemExcludes)=";**\node_modules\**;node_modules\**;**\jspm_packages\**;jspm_packages\**;**\bower_components\**;bower_components\**;bin\Debug//**" (previous value: ";**\node_modules\**;node_modules\**;**\jspm_packages\**;jspm_packages\**;**\bower_components\**;bower_components\**") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.DefaultOutputPaths.targets (121,5)
+                   Property reassignment: $(DefaultItemExcludes)=";**\node_modules\**;node_modules\**;**\jspm_packages\**;jspm_packages\**;**\bower_components\**;bower_components\**;bin\Debug//**;obj\Debug//**" (previous value: ";**\node_modules\**;node_modules\**;**\jspm_packages\**;jspm_packages\**;**\bower_components\**;bower_components\**;bin\Debug//**") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.DefaultOutputPaths.targets (122,5)
+                   Property reassignment: $(OutputPath)="bin\Debug/net8.0/" (previous value: "bin\Debug/") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.DefaultOutputPaths.targets (137,5)
+                   Property reassignment: $(IntermediateOutputPath)="obj\Debug/net8.0/" (previous value: "obj\Debug/") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.DefaultOutputPaths.targets (142,5)
+                   The "DefaultSdkResolver" resolver attempted to resolve the SDK "Microsoft.NET.SDK.WorkloadManifestTargetsLocator".
+                   Warnings: null
+                   Errors: MSB4276: The default SDK resolver failed to resolve SDK "Microsoft.NET.SDK.WorkloadManifestTargetsLocator" because directory "/usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.SDK.WorkloadManifestTargetsLocator/Sdk" did not exist.
+                   The SDK "Microsoft.NET.SDK.WorkloadManifestTargetsLocator" was successfully resolved by the "Microsoft.DotNet.MSBuildWorkloadSdkResolver" resolver to location "/usr/local/share/dotnet/sdk-manifests/8.0.100/microsoft.net.sdk.android/34.0.95" and version "null".
+                   Property reassignment: $(_FrameworkIdentifierForImplicitDefine)="NET" (previous value: "NETCOREAPP") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.BeforeCommon.targets (187,5)
+                   Property reassignment: $(_FrameworkVersionForImplicitDefine)="8_0" (previous value: "8.0") at /usr/local/share/dotnet/sdk/8.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.BeforeCommon.targets (192,5)
+                   Property reassignment: $(CommandLineArgsForDesignTimeEvaluation)="-langversion:12.0 -define:TRACE" (previous value: "-langversion:12.0") at /usr/local/share/dotnet/sdk/8.0.300/Roslyn/Microsoft.CSharp.Core.targets (200,5)
+                   Assembly loaded during Evaluation: Microsoft.Build.Utilities.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Build.Utilities.Core.dll, MVID: 84532266-19dd-42f6-80b7-de475da9a256, AssemblyLoadContext: Default)
+                   Property reassignment: $(_DebugSymbolsProduced)="true" (previous value: "false") at /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Common.CurrentVersion.targets (175,5)
+                   Property reassignment: $(_DocumentationFileProduced)="false" (previous value: "true") at /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Common.CurrentVersion.targets (185,5)
+                   Property reassignment: $(MSBuildCopyMarkerName)="Project..4F147270" (previous value: "Project.Apps.MyApi.csproj") at /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Common.CurrentVersion.targets (392,5)
+                   Property reassignment: $(MSBuildCopyMarkerName)="Project..4F147270.Up2Date" (previous value: "Project..4F147270") at /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Common.CurrentVersion.targets (393,5)
+                   Property reassignment: $(ProcessorArchitecture)="msil" (previous value: "") at /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Common.CurrentVersion.targets (536,5)
+                   Property reassignment: $(DelaySign)="" (previous value: "false") at /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Common.CurrentVersion.targets (575,5)
+                   Property 'LocalAppData' with value '/Users/josh/Library/Application Support' expanded from the environment.
+                   Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (previous value: "") at /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Common.CurrentVersion.targets (3880,5)
+                   Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Off" (previous value: "Auto") at /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Common.CurrentVersion.targets (3881,5)
+                   Property reassignment: $(_TargetsThatPrepareProjectReferences)="
+                         AssignProjectConfiguration;
+                         _SplitProjectReferencesByFileExistence
+                       " (previous value: "_SplitProjectReferencesByFileExistence") at /usr/local/share/dotnet/sdk/8.0.300/Microsoft.Common.CurrentVersion.targets (5048,5)
+                   Property 'MSBuildExtensionsPath32' with value '/usr/local/share/dotnet/sdk/8.0.300' expanded from the environment.
+                   Property reassignment: $(OpenApiGenerateDocuments)="true" (previous value: "") at /Users/josh/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/build/Microsoft.Extensions.ApiDescription.Server.targets (4,5)
+17:23:00.013     1>Project "/Users/josh/Desktop/nx-testing/project/apps/my-api/Project.Apps.MyApi.csproj" on node 1 (default targets).
+17:23:00.014     1>/Users/josh/Desktop/nx-testing/project/Directory.Build.targets(7,5): error MSB4184: The expression "[MSBuild]::MakeRelative('', /Users/josh/Desktop/nx-testing/project/apps/my-api)" cannot be evaluated. The value cannot be an empty string. (Parameter 'path') [/Users/josh/Desktop/nx-testing/project/apps/my-api/Project.Apps.MyApi.csproj]
+17:23:00.014     1>Done Building Project "/Users/josh/Desktop/nx-testing/project/apps/my-api/Project.Apps.MyApi.csproj" (default targets) -- FAILED.
+Deferred Messages
+17:23:00.015     0>
+Detailed Build Summary
+======================
+     (TaskId:0)
+                     
+                     ============================== Build Hierarchy (IDs represent configurations) =====================================================
+                     Id                  : Exclusive Time   Total Time   Path (Targets)
+                     ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+                     0                   : 0.158s           0.158s       /Users/josh/Desktop/nx-testing/project/apps/my-api/Project.Apps.MyApi.csproj ()  (TaskId:0)
+                     
+                     ============================== Node Utilization (IDs represent configurations) ====================================================
+                     Timestamp:            1        Duration   Cumulative
+                     ----------------------------------------------------------------------------------------------------------------------------------- (TaskId:0)
+                     638516641798564210:   0        0.159s     0.159s ... (TaskId:0)
+                     -----------------------------------------------------------------------------------------------------------------------------------
+                     Utilization:          100.0    Average Utilization: 100.0 (TaskId:0)
+
+Project Evaluation Performance Summary:
+        0 ms  /Users/josh/Desktop/nx-testing/project/apps/my-api/Project.Apps.MyApi.csproj   1 calls
+
+Project Performance Summary:
+        1 ms  /Users/josh/Desktop/nx-testing/project/apps/my-api/Project.Apps.MyApi.csproj   1 calls
+
+Build FAILED.
+
+                   "/Users/josh/Desktop/nx-testing/project/apps/my-api/Project.Apps.MyApi.csproj" (default target) (1) ->
+                     /Users/josh/Desktop/nx-testing/project/Directory.Build.targets(7,5): error MSB4184: The expression "[MSBuild]::MakeRelative('', /Users/josh/Desktop/nx-testing/project/apps/my-api)" cannot be evaluated. The value cannot be an empty string. (Parameter 'path') [/Users/josh/Desktop/nx-testing/project/apps/my-api/Project.Apps.MyApi.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.17

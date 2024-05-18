@@ -26,10 +26,6 @@ module.exports = {
             {
               "key": "Version",
               "value": "${nextRelease.version}"
-            },
-            {
-              "key": "RepositoryCommit",
-              "value": "${CI_COMMIT_SHA}"
             }
           ]
         }
