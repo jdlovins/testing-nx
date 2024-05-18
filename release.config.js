@@ -2,7 +2,13 @@
  * @type {import('semantic-release').GlobalConfig}
  */
 module.exports = {
-  "branches": ['+([0-9])?(.{+([0-9]),x}).x', 'master', 'main', 'next', 'next-major', {name: 'beta', prerelease: true}, {name: 'alpha', prerelease: true}],
+  "branches": ['+([0-9])?(.{+([0-9]),x}).x', 'master', 'main', 'beta', 'next-major', {
+    name: 'beta',
+    prerelease: true
+  }, {
+    name: 'alpha',
+    prerelease: true
+  }],
   "plugins": [
     "@droidsolutions-oss/semantic-release-update-file",
     "@droidsolutions-oss/semantic-release-nuget",
@@ -12,7 +18,8 @@ module.exports = {
         "assets": ["package.json", "package-lock.json", "Directory.Build.props"],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
-    ]
+    ],
+    "@semantic-release/github"
   ],
   "nugetServer": "https://nuget.pkg.github.com/jdlovins/index.json",
   "projectPath": "apps/my-api/Project.Apps.MyApi.csproj",
