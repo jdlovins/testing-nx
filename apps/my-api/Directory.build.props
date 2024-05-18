@@ -9,6 +9,6 @@
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <RepositoryCommit>209982581960ec4e7361ec556e51be4ebbee2052</RepositoryCommit>
-        <Version>3.0.1</Version>
+        <Version>1.10.0-beta.1</Version>
       </PropertyGroup>
 </Project>
