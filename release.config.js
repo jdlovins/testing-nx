@@ -24,11 +24,20 @@ module.exports = {
   "nugetServer": "https://nuget.pkg.github.com/jdlovins/index.json",
   "projectPath": "apps/my-api/Project.Apps.MyApi.csproj",
   "files": [{
-    "path": ["apps/my-api/Directory.Build.props"], // configure update-file plugin to update fields in Directory.Build.props
-    "type": "xml",
-    "replacements": [{
-      "key": "Version",
-      "value": "${nextRelease.version}"
-    }]
-  }]
+      "path": ["apps/my-api/Directory.Build.props"], // configure update-file plugin to update fields in Directory.Build.props
+      "type": "xml",
+      "replacements": [{
+        "key": "Version",
+        "value": "${nextRelease.version}"
+      }]
+    },
+    {
+      "path": ["apps/my-api/package.json"],
+      "type": "json",
+      "replacements": [{
+        "key": "version",
+        "value": "${nextRelease.version}"
+      }]
+    }
+  ]
 };
