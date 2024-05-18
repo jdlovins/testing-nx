@@ -2,13 +2,7 @@
  * @type {import('semantic-release').GlobalConfig}
  */
 module.exports = {
-  "branches": [
-    "main",
-    {
-      name: 'beta',
-      prerelease: true
-    }
-  ],
+  "branches": ['+([0-9])?(.{+([0-9]),x}).x', 'master', 'main', 'next', 'next-major', {name: 'beta', prerelease: true}, {name: 'alpha', prerelease: true}],
   "plugins": [
     "@droidsolutions-oss/semantic-release-update-file",
     "@droidsolutions-oss/semantic-release-nuget",
