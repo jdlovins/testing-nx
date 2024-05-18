@@ -24,7 +24,7 @@ module.exports = {
           "type": "xml",
           "replacements": [
             {
-              "key": "VersionPrefix",
+              "key": "Version",
               "value": "${nextRelease.version}"
             },
             {

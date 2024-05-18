@@ -3,9 +3,6 @@
       <Authors>Josh L</Authors>
       <Description>Some special thing</Description>
       <Company>abc</Company>
-      <PackageLicenseFile>LICENSE</PackageLicenseFile>
-      <PackageReadmeFile>README.md</PackageReadmeFile>
-      <PackageReleaseNotes>https://github.com/droidsolutions/job-service/blob/main/CHANGELOG.md</PackageReleaseNotes>
       <SymbolPackageFormat>snupkg</SymbolPackageFormat>
       <RepositoryUrl>https://github.com/jdlovins/testing-nx.git</RepositoryUrl>
       <PublishRepositoryUrl>true</PublishRepositoryUrl>
