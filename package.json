@@ -12,6 +12,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0",
+    "@droidsolutions-oss/semantic-release-nuget": "^2.0.1",
     "@nx/eslint": "18.3.5",
     "@nx/eslint-plugin": "18.3.5",
     "@nx/jest": "18.3.5",
@@ -37,6 +38,9 @@
     "typescript": "~5.4.2"
   },
   "release": {
-    "branches": ["main", "next"]
+    "branches": [
+      "main",
+      "next"
+    ]
   }
 }
