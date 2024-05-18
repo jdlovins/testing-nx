@@ -3,6 +3,14 @@
 
 ### Features
 
+* lets go ([e5a9d73](https://github.com/jdlovins/testing-nx/commit/e5a9d737d7fa5f7cc9d1e7242fe906ba210be05a))
+* maybe ([392f836](https://github.com/jdlovins/testing-nx/commit/392f836ba33a6116d55ecfc1471a3198bfaccc7b))
+
+# [1.4.0](https://github.com/jdlovins/testing-nx/compare/v1.3.0...v1.4.0) (2024-05-18)
+
+
+### Features
+
 * maybe ([392f836](https://github.com/jdlovins/testing-nx/commit/392f836ba33a6116d55ecfc1471a3198bfaccc7b))
 
 # [1.3.0](https://github.com/jdlovins/testing-nx/compare/v1.2.0...v1.3.0) (2024-05-18)
