@@ -30,14 +30,6 @@ module.exports = {
         "key": "Version",
         "value": "${nextRelease.version}"
       }]
-    },
-    {
-      "path": ["apps/my-api/package.json"],
-      "type": "json",
-      "replacements": [{
-        "key": "version",
-        "value": "${nextRelease.version}"
-      }]
     }
   ]
 };

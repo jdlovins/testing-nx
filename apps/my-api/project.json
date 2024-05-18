@@ -55,7 +55,7 @@
         "github": true,
         "changelog": true,
         "npm": true,
-        "tagFormat": "Apps.my-api-v${VERSION}"
+        "tagFormat": "${VERSION}"
       }
     },
     "container": {
