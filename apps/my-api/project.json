@@ -63,7 +63,18 @@
         "github": true,
         "changelog": true,
         "npm": true,
-        "tagFormat": "Apps.my-api-v${VERSION}"
+        "tagFormat": "Apps.my-api-v${VERSION}",
+        "plugins": [
+          "@droidsolutions-oss/semantic-release-update-file",
+          "@droidsolutions-oss/semantic-release-nuget",
+          [
+            "@semantic-release/git",
+            {
+              "assets": ["package.json", "package-lock.json", "CHANGELOG.md", "Directory.Build.props"],
+              "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            }
+          ]
+        ],
       }
     }
   }
