@@ -11,7 +11,7 @@ module.exports = {
         [
           "@semantic-release/git",
           {
-            "assets": ["package.json", "package-lock.json", "CHANGELOG.md", "Directory.Build.props"],
+            "assets": ["package.json", "package-lock.json", "Directory.Build.props"],
             "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
           }
         ]
@@ -20,7 +20,7 @@ module.exports = {
       "projectPath": "apps/my-api/Project.Apps.MyApi.csproj",
       "files": [
         {
-          "path": ["Directory.Build.props"], // configure update-file plugin to update fields in Directory.Build.props
+          "path": ["apps/my-api/Directory.Build.props"], // configure update-file plugin to update fields in Directory.Build.props
           "type": "xml",
           "replacements": [
             {
