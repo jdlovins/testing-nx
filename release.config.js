@@ -9,7 +9,6 @@ module.exports = {
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
-        "@droidsolutions-oss/semantic-release-update-file",
         "@semantic-release/npm",
         "@droidsolutions-oss/semantic-release-nuget",
         [
@@ -18,7 +17,8 @@ module.exports = {
             "assets": ["package.json", "package-lock.json", "CHANGELOG.md", "Directory.Build.props"],
             "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
           }
-        ],
-        "@semantic-release/gitlab"
-      ]
+        ]
+      ],
+      "nugetServer": "https://nuget.pkg.github.com/12jdlovins/index.json",
+      "projectPath": "apps/my-api/Project.Apps.MyApi.csproj"
   };
