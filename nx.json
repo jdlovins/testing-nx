@@ -52,5 +52,11 @@
     "swagger": {
       "cache": true
     }
+  },
+  "release": {
+    "projectsRelationship": "independent",
+    "version": {
+      "conventionalCommits": true
+    }
   }
 }
