@@ -3,6 +3,14 @@
 
 ### Features
 
+* actually fixed ([b36ab96](https://github.com/jdlovins/testing-nx/commit/b36ab9685599985f2ffd1f0cbe2476ab79bf5fea))
+* fixed project ([7bef1c0](https://github.com/jdlovins/testing-nx/commit/7bef1c08f8cd13661dbcc7e06ca5b75b24c9e5ce))
+
+# [1.2.0](https://github.com/jdlovins/testing-nx/compare/v1.1.0...v1.2.0) (2024-05-18)
+
+
+### Features
+
 * fixed project ([7bef1c0](https://github.com/jdlovins/testing-nx/commit/7bef1c08f8cd13661dbcc7e06ca5b75b24c9e5ce))
 
 # [1.1.0](https://github.com/jdlovins/testing-nx/compare/v1.0.0...v1.1.0) (2024-05-18)
