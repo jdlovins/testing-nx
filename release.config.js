@@ -9,7 +9,7 @@ module.exports = {
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
-        "@semantic-release/npm",
+        "@droidsolutions-oss/semantic-release-update-file",
         "@droidsolutions-oss/semantic-release-nuget",
         [
           "@semantic-release/git",
