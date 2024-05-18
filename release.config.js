@@ -19,6 +19,6 @@ module.exports = {
           }
         ]
       ],
-      "nugetServer": "https://nuget.pkg.github.com/12jdlovins/index.json",
+      "nugetServer": "https://nuget.pkg.github.com/jdlovins/index.json",
       "projectPath": "apps/my-api/Project.Apps.MyApi.csproj"
   };
