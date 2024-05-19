@@ -1,6 +1,6 @@
 {
   "name": "@project/source",
-  "version": "1.6.0",
+  "version": "1.10.0-beta.5",
   "license": "MIT",
   "scripts": {
     "prepare": "husky install"
