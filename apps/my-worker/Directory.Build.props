@@ -1,0 +1,9 @@
+<Project>
+    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+    <PropertyGroup>
+        <Authors>Josh L</Authors>
+        <Description>Some special thing</Description>
+        <Company>abc</Company>
+        <Version>1.10.0-beta.7</Version>
+      </PropertyGroup>
+</Project>

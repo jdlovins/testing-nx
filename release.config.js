@@ -26,7 +26,9 @@ module.exports = {
     "apps/my-api/Project.Apps.MyApi.csproj",
     "apps/my-worker/Project.MyWorker.csproj"],
   "files": [{
-      "path": ["apps/my-api/Directory.Build.props"], // configure update-file plugin to update fields in Directory.Build.props
+      "path": [
+        "apps/my-api/Directory.Build.props",
+        "apps/my-worker/Directory.Build.props"], // configure update-file plugin to update fields in Directory.Build.props
       "type": "xml",
       "replacements": [{
         "key": "Version",
