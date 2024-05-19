@@ -10,6 +10,7 @@ module.exports = {
     prerelease: true
   }],
   "plugins": [
+    "@semantic-release/commit-analyzer",
     "@droidsolutions-oss/semantic-release-update-file",
     "@droidsolutions-oss/semantic-release-nuget",
     [
