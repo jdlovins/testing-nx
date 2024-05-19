@@ -43,6 +43,9 @@
       "inputs": [
         "{projectRoot}/**/*.{cs,fs,vb}"
       ]
+    },
+    "semantic-release": {
+      "executor": "@theunderscorer/nx-semantic-release:semantic-release"
     }
   },
   "tags": []
