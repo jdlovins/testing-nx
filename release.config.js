@@ -11,7 +11,6 @@ module.exports = {
   }],
   "plugins": [
     "@droidsolutions-oss/semantic-release-update-file",
-    "@semantic-release/npm",
     "@droidsolutions-oss/semantic-release-nuget",
     [
       "@semantic-release/git",

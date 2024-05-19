@@ -3,7 +3,7 @@
   "version": "1.10.0-beta.5",
   "license": "MIT",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install && nx g @nx-dotnet/core:restore"
   },
   "private": true,
   "dependencies": {
