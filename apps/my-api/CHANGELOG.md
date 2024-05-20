@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/jdlovins/testing-nx/compare/1.10.0...1.11.0) (2024-05-20)
+
+
+### Features
+
+* added a thing ([1863a1a](https://github.com/jdlovins/testing-nx/commit/1863a1a54ad956fcf5f9bfcbcc3f594249267212))
+
 # [1.10.0](https://github.com/jdlovins/testing-nx/compare/v1.9.0...1.10.0) (2024-05-20)
 
 
